@@ -1,4 +1,4 @@
-#Sun Jan 24 18:14:20 EAT 2021
-base.0=C\:\\Users\\MtuyG\\AndroidStudioProjects\\CS335_Shoping_Mall\\CS335_Shoping_Mall\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Thu Feb 04 19:24:27 EAT 2021
+base.0=C\:\\Users\\Gratis Mtuy\\OneDrive\\Documents\\GitHub\\CS335_Shoping_Mall\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
