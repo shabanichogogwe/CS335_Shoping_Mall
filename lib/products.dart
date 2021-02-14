@@ -57,7 +57,7 @@ class Products extends StatelessWidget {
                       context, '/product/' + index.toString())),
               IconButton(
                   icon: Icon(Icons.favorite_border),
-                  color: Colors.red,
+                  color: Theme.of(context).accentColor,
                   onPressed: () => Navigator.pushNamed<bool>(
                       context, '/product/' + index.toString()))
             ],
