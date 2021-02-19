@@ -40,7 +40,8 @@ class _MyAppState extends State<MyApp> {
           fontFamily: 'Oswald'),
       //home: AuthPage(),
       routes: {
-        '/': (BuildContext context) => ProductsPage(_products),
+        '/': (BuildContext context) => AuthPage(),
+        '/product': (BuildContext context) => ProductsPage(_products),
         '/admin': (BuildContext context) =>
             ProductsAdminPage(_addProduct, _deleteProduct),
       },
