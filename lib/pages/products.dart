@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../product_manager.dart';
+import 'package:shopping_mall/pages/userprofile.dart';
 
 class ProductsPage extends StatelessWidget {
   final List<Map<String, dynamic>> products;
@@ -30,6 +31,15 @@ class ProductsPage extends StatelessWidget {
             ),
           ),
           appBar: AppBar(title: Text('Shopping Mall'), actions: <Widget>[
+            IconButton(
+                icon: const Icon(Icons.account_circle),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => UserProfile()),
+                  );
+                }),
+            IconButton(icon: const Icon(Icons.shopping_cart), onPressed: () {}),
             IconButton(
               icon: Icon(Icons.favorite),
               onPressed: () {},
