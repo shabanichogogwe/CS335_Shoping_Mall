@@ -31,7 +31,7 @@ class _AuthPageState extends State<AuthPage> {
             child: Column(children: <Widget>[
               TextField(
                 decoration: InputDecoration(
-                    labelText: 'E-mail', filled: true, fillColor: Colors.white),
+                    labelText: 'E-mail', filled: true, fillColor: Color(0xFFFFFF),),
                 keyboardType: TextInputType.emailAddress,
                 onChanged: (String value) {
                   setState(() {
